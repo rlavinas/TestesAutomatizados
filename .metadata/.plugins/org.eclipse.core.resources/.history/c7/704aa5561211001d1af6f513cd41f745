@@ -18,7 +18,7 @@ public class TesteLogin {
 	}
 		
 	@Test
-	public void testeNavegador() {	
+	public void testeNavegador() {
 
 		driver.get("http://localhost:4200/login");
 			
@@ -26,7 +26,7 @@ public class TesteLogin {
 		WebElement inputSenha = driver.findElement(By.id("edtSenha"));
 		WebElement botaoLogin = driver.findElement(By.id("butEnviar"));
 				
-		String[] listaSenhas = {"senha1", "senha2", "senha3", "carlos123"};
+		String[] listaSenhas = {"senha1", "senha2", "senha3"};
 		for (int tentativa = 0; tentativa < listaSenhas.length; tentativa++) {
 			try {
 				inputEmail.clear();
