@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TesteLogin" project="GameManiaTestes" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="TesteLogin" time="22.197">
-    <testcase name="testeNavegador" classname="TesteLogin" time="22.197"/>
-  </testsuite>
-</testrun>
